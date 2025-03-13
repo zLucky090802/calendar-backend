@@ -86,12 +86,7 @@ const loginUsuario = async(req, res = response) =>{
     }
     
  
-    res.json({
-      ok: true,
-      msg: 'login',
-      email,
-      password
-    })
+   
 };
 
 const revalidarToken = async(req, res = response) =>{
